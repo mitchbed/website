@@ -1,18 +1,18 @@
 body{
   margin: 0;
   padding: 0;
-  background: url() no-repeat;
   background-size: cover;
 }
 
-iframe { 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
+#ytplayer {
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
 }
 
 .box{
