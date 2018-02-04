@@ -1,12 +1,12 @@
 body{
   margin: 0;
   padding: 0;
+  background: url(https://i.imgur.com/IuSYkfc.jpg) no-repeat;
   background-size: cover;
 }
-
 .box{
   width: 450px;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.4);
   padding: 40px;
   text-align: center;
   margin: auto;
@@ -18,7 +18,7 @@ body{
   border-radius: 50%;
   width: 200px;
   height: 200px;
-  align: center;
+  on-hover: ;
 }
 .box h1{
   font-size: 40px;
