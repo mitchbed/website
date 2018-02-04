@@ -1,11 +1,11 @@
 body{
   margin: 0;
   padding: 0;
-  background: url("https://www.youtube.com/watch?v=0kD7cDeoUfg") no-repeat;
+  background: url() no-repeat;
   background-size: cover;
 }
 
-video { 
+iframe { 
     position: fixed;
     top: 50%;
     left: 50%;
@@ -13,8 +13,6 @@ video {
     min-height: 100%;
     width: auto;
     height: auto;
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
 }
 
 .box{
